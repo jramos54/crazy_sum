@@ -6,6 +6,9 @@ import string
 def sum_pares(a,b):
     return a+b+1
 
+def sum_pares_2(a,b):
+    return a+b+1
+
 def sum_impares(a,b):
     return (a+b)*-1
 
