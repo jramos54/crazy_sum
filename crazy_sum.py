@@ -6,7 +6,7 @@ import string
 def sum_pares(a,b):
     return a+b+1
 
-def sum_pares_2(a,b):
+def sum_dobuble_b(a,b):
     return a+b+b+2
 
 def sum_impares(a,b):
