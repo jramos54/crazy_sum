@@ -8,6 +8,9 @@ def sum_pares(a, b):
 def sum_impares(a, b):
     return (a + b) * -1
 
+def sum_dobule_b(a,b):
+    return (a + 2*b) + 2
+
 def sum_mixtos(a,b):
     return (a + b) - 1
 
@@ -15,7 +18,7 @@ def type_number(a):
     """Determinar si es par o impar
     return True si es par
     False si es impar"""
-    if a % 2 == 0:
+    if not a % 2:
         return True
     else:
         return False
